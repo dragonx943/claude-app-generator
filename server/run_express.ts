@@ -27,7 +27,7 @@ app.get('/client/:file', (req, res) => {
     }
 })
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 7876;
 server.listen(port, () => {
     console.log('Server is running on port ' + port);
 });
